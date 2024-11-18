@@ -4,8 +4,8 @@ float corruptionRate = 0.1; // Initial corruption rate
 CustomSlider corruptionSlider; // Declare the slider as a global variable
 
 void setup() {
-  size(2388,912); //add the actual dimensions of your image
-  originalImg = loadImage("your_image.jpg"); // Replace with the image's file path
+  size(400,400); //add the actual dimensions of your image
+  originalImg = loadImage("Teddyfourbyfour.png"); // Replace with the image's file path
   img = createImage(originalImg.width, originalImg.height, RGB); // Create a copy of the original image
   img.copy(originalImg, 0, 0, originalImg.width, originalImg.height, 0, 0, img.width, img.height);
   img.loadPixels();

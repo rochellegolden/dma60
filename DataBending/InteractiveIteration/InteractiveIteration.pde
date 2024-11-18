@@ -4,8 +4,8 @@ int iterations = 0; // Number of iterations
 Button iterateButton; // Declare the button as a global variable
 
 void setup() {
-  size(2388,912); //add the actual dimensions of your image
-  img = loadImage("your_image.jpg"); // Replace with the image's file path
+  size(400,400); //add the actual dimensions of your image
+  img = loadImage("Teddyfourbyfour.png"); // Replace with the image's file path
   img.loadPixels();
   
   // Create a button to trigger iterative corruption

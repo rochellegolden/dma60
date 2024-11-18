@@ -45,7 +45,7 @@ void draw() {
   }
   
   // Draw the bouncing ball
-  fill(0);
+  fill(255,178,10);
   ellipse(x, y, 20, 20);
 }
 

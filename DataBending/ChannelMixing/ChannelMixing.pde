@@ -2,7 +2,7 @@ PImage img;
 
 void setup() {
   size(800, 600);
-  img = loadImage("your_image.jpg"); // Replace with the image's file path
+  img = loadImage("Teddyfourbyfour.png"); // Replace with the image's file path
   img.loadPixels();
 
   for (int i = 0; i < img.pixels.length; i++) {
